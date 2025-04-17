@@ -1,0 +1,122 @@
+
+
+## 1. 🎓 Student Marks Ranking System – `README.md`
+
+```markdown
+# 🎓 Student Marks Ranking System
+
+This is a simple Python project built as part of the **Advanced Data Structures and Algorithms** course. It ranks students based on their marks using core data structures like lists, dictionaries, and sorting logic.
+
+## ✅ Features
+- Add, update, and delete student records.
+- Display all student data.
+- Rank students by marks in descending order.
+- Handle duplicate or missing records gracefully.
+
+## 💡 Sample Code
+```python
+students = {
+    "Nandhu": 91,
+    "Girish": 87,
+    "Abeed": 94
+}
+
+ranked = sorted(students.items(), key=lambda x: x[1], reverse=True)
+for rank, (name, mark) in enumerate(ranked, 1):
+    print(f"Rank {rank}: {name} - {mark}")
+```
+
+## 🧠 Data Structures Used
+- Lists
+- Dictionaries
+- Sorting (Lambda + `sorted()`)
+
+## 🛠 Technologies
+- Python 3.x
+
+## 👨‍💻 Author
+**Nandhu S**
+
+---
+```
+
+---
+
+## 2. ☁️ Cloud Gaming App (Offline) – `README.md`
+
+```markdown
+# ☁️ Cloud Gaming App (Offline Simulation)
+
+This is a Python-based simulation of a **Cloud Gaming App**, designed to work offline and demonstrate **searching algorithms** like Linear Search and Binary Search. Built for the **Advanced DSA** course.
+
+## 🔍 Features
+- Stores a list of popular games.
+- Search games by title using Linear or Binary Search.
+- Displays results with search time and comparison count.
+- Completely offline – no database used.
+
+## 💡 Sample Code
+```python
+games = ["Apex Legends", "Valorant", "PUBG", "Minecraft"]
+games.sort()
+key = input("Enter game name: ")
+
+# Binary Search
+def binary_search(arr, key):
+    ...
+```
+
+## 🧠 Data Structures & Algorithms
+- Lists
+- Searching Algorithms:
+  - Linear Search
+  - Binary Search
+- Sorting before Binary Search
+
+## 🛠 Technologies
+- Python 3.x
+
+## 👨‍💻 Author
+**Nandhu S**
+
+---
+```
+
+---
+
+## 3. 🎥 Anime Watch History Tracker – `README.md`
+
+```markdown
+# 🎥 Anime Watch History Tracker
+
+This project is a **MySQL + Python**-based system that lets users track their watched anime/movies/series. Designed for practicing **CRUD operations**, **ER modeling**, and **JOIN queries** in MySQL.
+
+## ✅ Features
+- Add, update, and delete anime/movie/series entries.
+- Track genres, ratings, platforms, and watch dates.
+- Display records and filter/search with SQL queries.
+
+## 🧠 Concepts Practiced
+- Database Design
+- ER Diagram & Relationships
+- SQL CRUD operations
+- JOINs and Subqueries
+- Python-MySQL Integration (Optional)
+
+## 📂 Files Included
+- `anime_watch.sql` – SQL script with tables and sample data
+- `ER_Diagram.png` – Entity Relationship diagram
+- `documentation.pdf` – Short report on the project
+- *(Optional)* `main.py` – Basic CLI to interact with DB
+
+## 🛠 Technologies
+- MySQL
+- (Optional) Python 3.x for integration
+
+## 👨‍💻 Author
+**Nandhu S**
+
+---
+```
+
+---
